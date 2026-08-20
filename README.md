@@ -1,18 +1,14 @@
-# 🧪 Advanced Task Manager – Software Testing
+# Advanced Task Manager – Software Testing
 
-A software testing project for an **Advanced Task Manager web application**, developed as part of the **CCSW 323 – Software Testing** course.
+A software testing project focused on evaluating an existing **Advanced Task Manager web application** as part of the **CCSW 323 – Software Testing** course.
 
-The project focuses on designing test cases, applying different testing models and coverage criteria, and automating web application testing using **Selenium WebDriver and JUnit**.
+The project focused on designing test cases, applying different testing models and coverage criteria, and evaluating the system using automated testing tools.
 
 ## 📌 Project Overview
 
-The application is a web-based task manager developed using:
+The **Advanced Task Manager** was used as the **System Under Test (SUT)**.
 
-* HTML
-* CSS
-* JavaScript
-
-The application allows users to:
+The application is a web-based task manager that allows users to:
 
 * Create an account and log in
 * Add tasks
@@ -22,37 +18,76 @@ The application allows users to:
 * Search and filter tasks
 * Log out
 
-## 🧪 Testing Techniques
+The System Under Test was built using:
 
-The project applied the following testing techniques:
+* HTML
+* CSS
+* JavaScript
 
-### Input Space Testing
+The original application was obtained from an existing GitHub repository and was used for testing purposes.
 
-* Base Choice Coverage (BCC)
-* Each Choice Coverage (ECC)
-* Multiple Base Choice Coverage (MBCC)
+##  Testing Models
 
-### Graph-Based Testing
+The project applied two main testing models:
 
-* Node Coverage (NC)
-* Edge Coverage (EC)
+### 1. Input Space Testing
 
-These techniques were used to design systematic test cases and cover different user inputs, system states, and transitions.
+The following coverage criteria were applied:
+
+* **Base Choice Coverage (BCC)**
+* **Each Choice Coverage (ECC)**
+* **Multiple Base Choice Coverage (MBCC)**
+
+These techniques were used to identify different input characteristics and test valid, invalid, and empty input values.
+
+### 2. Graph-Based Testing
+
+The following coverage criteria were applied:
+
+* **Node Coverage (NC)**
+* **Edge Coverage (EC)**
+
+The system was modeled using nodes and edges to represent different system states, actions, and transitions.
+
+## 🔍 Test Cases
+
+Test cases were designed for different system functions, including:
+
+* User registration
+* User login
+* Login validation
+* Adding tasks
+* Completing tasks
+* Editing tasks
+* Deleting tasks
+* Searching and filtering tasks
+* Logout
+
+The test cases included both valid and invalid input scenarios.
 
 ## 🤖 Test Automation
 
-The project used:
+**Selenium WebDriver** and **JUnit** were used for automated testing.
 
-* **Selenium WebDriver** – to automate browser interactions and simulate real user actions.
-* **JUnit** – to execute automated test cases and verify expected results.
+### Selenium WebDriver
 
-Automated scenarios included:
+Selenium was used to:
 
-* Login validation
-* Adding tasks
-* Selecting task priority
-* Selecting due dates
-* Verifying system responses
+* Open the web application
+* Simulate user interactions
+* Enter input data
+* Click buttons
+* Navigate through the application
+* Verify system behavior
+
+### JUnit
+
+JUnit was used to:
+
+* Execute test cases
+* Compare expected and actual results
+* Verify system behavior
+* Determine whether test cases passed or failed
 
 ## 📊 Testing Results
 
@@ -60,44 +95,65 @@ A total of **28 test cases** were executed.
 
 | Result       | Number |
 | ------------ | -----: |
-| ✅ Passed    |     28 |
-| ❌ Failed    |      0 |
+| ✅ Passed     |     28 |
+| ❌ Failed     |      0 |
 | 📊 Pass Rate |   100% |
 
-All executed test cases passed successfully.
+All 28 executed test cases passed successfully.
 
-## 🛠️ Technologies
+## 🛠️ Tools & Technologies
 
+* Selenium WebDriver
+* JUnit
+* Java
 * HTML
 * CSS
 * JavaScript
-* Java
-* Selenium WebDriver
-* JUnit
 * ChromeDriver
-* VS Code
+* Visual Studio Code
 * NetBeans
 
+## 📚 Project Documentation
+
+This repository contains the documentation and presentation of the testing project.
+
+The documentation includes:
+
+* Testing models
+* Coverage criteria
+* Test case design
+* Selenium and JUnit usage
+* Test execution
+* Testing results
+* Project conclusion
 
 ## 🎯 Learning Outcomes
 
 Through this project, I gained practical experience in:
 
+* Software testing
 * Test case design
-* Software testing models
+* Input Space Testing
+* Graph-Based Testing
 * Coverage criteria
 * Functional testing
-* Web test automation
+* Automated web testing
 * Selenium WebDriver
 * JUnit
 * Analyzing expected and actual results
 
-## 👩🏻‍💻 Project Team
+## 👩🏻‍💻 Project Type
 
-This was a group project completed as part of the Software Testing course.
+**Group Academic Project**
 
-## 📚 Course
+**Course:** CCSW 323 – Software Testing
 
-**CCSW 323 – Software Testing**
+**University:** Jeddah University
 
-**Jeddah University**
+## 📎 Original System Under Test
+
+The web application used for testing was obtained from an existing GitHub repository and was used only as the **System Under Test (SUT)** for this academic project.
+
+Original repository:
+
+https://github.com/11249a040-sandeep/todo-list-app
